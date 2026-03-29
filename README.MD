@@ -1,10 +1,32 @@
-DatemeNot 
+# DatemeNot
 
-The basic rundown of Datemenot is that the user selects preferences of who they are trying to date and their political views and topics of interest ,  then the Ai selects a restaurant that none of you like. So you have multiple options on the user end but then the Ai picks what none of you prefer! 
+DatemeNot is a satirical dating app concept where the user picks their ideal match vibe, political stance, and hot-button conversation topics, then the app intentionally generates the worst possible date.
 
--- Tech stack 
-Typescript / CSS 
-React 
-Node.Js
-Vercel App - hosting static website
+The current frontend is a Bumble-inspired React + TypeScript single-page UI that:
 
+- lets the user choose the type of person they hoped to meet
+- sets their political baseline and debate topics
+- reveals a deliberately incompatible match
+- assigns a restaurant neither person wanted
+- auto-picks a meal that makes the date even worse
+
+## Tech stack
+
+- React
+- TypeScript
+- CSS
+- Node.js
+- Vite
+
+## Run locally
+
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
