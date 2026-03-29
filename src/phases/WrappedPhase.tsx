@@ -23,7 +23,7 @@ export default function WrappedPhase({ scenario, onRestart }: Props) {
     <div className="wrapped-shell">
       <div className="wrapped-card">
         <div className="wrapped-header">
-          <span className="wrapped-logo">Cursed GPS</span>
+          <span className="wrapped-logo">DateMeNot</span>
           <span className="wrapped-year">2026</span>
         </div>
 

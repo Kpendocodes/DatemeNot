@@ -102,7 +102,7 @@ export default function InputPhase({ onComplete }: Props) {
     <main className="app-shell">
       <section className="hero">
         <div className="brand-row">
-          <span className="brand-badge">Cursed GPS</span>
+          <span className="brand-badge">DateMeNot</span>
           <span className="brand-caption">Fake AI. Real betrayal.</span>
         </div>
         <div className="hero-copy">

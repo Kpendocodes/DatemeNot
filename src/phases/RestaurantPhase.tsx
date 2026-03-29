@@ -31,7 +31,7 @@ export default function RestaurantPhase({ scenario, onNext }: Props) {
   return (
     <main className="gps-shell">
       <div className="gps-topbar">
-        <span className="brand-badge brand-badge-dark">Cursed GPS</span>
+        <span className="brand-badge brand-badge-dark">DateMeNot</span>
         <div className="phase-steps phase-steps-dark">
           <span className="step step-done">Analysis ✓</span>
           <span className="step-sep">·</span>

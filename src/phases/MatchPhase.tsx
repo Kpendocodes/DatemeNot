@@ -49,7 +49,7 @@ export default function MatchPhase({ scenario, onNext }: Props) {
     <main className="app-shell">
       <section className="phase-header">
         <div className="brand-row">
-          <span className="brand-badge">Cursed GPS</span>
+          <span className="brand-badge">DateMeNot</span>
           <div className="phase-steps">
             <span className="step step-active">Analysis</span>
             <span className="step-sep">·</span>
@@ -84,7 +84,7 @@ export default function MatchPhase({ scenario, onNext }: Props) {
         <div className="match-cta">
           <p className="match-cta-note">This analysis is local, fast, and almost certainly biased.</p>
           <button type="button" className="primary-action" onClick={onNext}>
-            start cursed gps →
+            start DateMeNot gps →
           </button>
         </div>
       </section>
